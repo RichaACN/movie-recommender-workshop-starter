@@ -39,15 +39,15 @@ INDEX_SCHEMA = {
     #     "prefix": "movie:",
     # },
     # "fields": [
-    #     {"name": "title", "type": "text"},
-    #     {"name": "genre", "type": "tag"},
-    #     {"name": "rating", "type": "numeric"},
-    #     {"name": "description", "type": "text"},
+    #     {"name": "title", "type": ""},
+    #     {"name": "genre", "type": ""},
+    #     {"name": "rating", "type": ""},
+    #     {"name": "description", "type": ""},
     #     {
     #         "name": "vector",
     #         "type": "vector",
     #         "attrs": {
-    #             "algorithm": "flat",
+    #             "algorithm": "",
     #             "dims": 384,
     #             "distance_metric": "cosine",
     #             "datatype": "float32",
