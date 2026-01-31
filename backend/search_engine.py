@@ -113,6 +113,11 @@ class MovieSearchEngine:
         # - return_fields: List of fields to include in results (e.g., ["title", "genre", "rating", "description"])
         # - return_score: If True, includes similarity score in results
         vec_query = VectorQuery(
+            vector=embedded_query,
+            vector_field_name="vector",
+            num_results=num_results,
+            return_fields=["title", "genre", "rating", "description"],
+            return_score=True,
           
         )
         
